@@ -1,7 +1,7 @@
 # 🌿 Portal de Notícias Ambientais - *Ecológica Verde*
 
 ## 🎯 Objetivo
-Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HTML/CSS. O sistema inclui autenticação de usuários, gerenciamento de notícias e uma interface pública e privada.
+Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HTML/CSS. O sistema inclui autenticação de usuários, gerenciamento de notícias, funcionalidades extras e uma interface pública e privada.
 
 ---
 
@@ -9,6 +9,7 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 
 ### 🔐 Usuários
 - Cadastro e login
+- Recuperação de conta por e-mail
 - Edição e exclusão de conta
 - Logout seguro
 
@@ -17,16 +18,24 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 - Edição/exclusão apenas pelo autor
 - Listagem pública das notícias
 - Visualização completa da notícia
+- Busca de notícias por título ou conteúdo
+- Exportar notícia em PDF
+
+### 🌦️ Recursos Extras
+- Previsão do tempo na página inicial
+- Anúncios dinâmicos na área pública
+- Modo escuro ativável pelo usuário
 
 ---
 
 ## 🧩 Estrutura do Sistema
 
 ### 📁 Páginas Públicas
-- `index.php`: Lista de notícias públicas
-- `noticia.php`: Exibição de uma notícia
+- `index.php`: Lista de notícias públicas + previsão do tempo
+- `noticia.php`: Exibição de uma notícia (com opção de exportar PDF)
 - `login.php`: Login de usuários
 - `cadastro.php`: Cadastro de conta
+- `recuperar.php`: Recuperação de conta
 - `logout.php`: Encerra a sessão
 
 ### 🔐 Páginas Privadas
@@ -38,7 +47,10 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 ### 🔧 Suporte
 - `conexao.php`: Conexão com banco
 - `verifica_login.php`: Proteção de páginas privadas
-- `style.css`: Estilização
+- `busca.php`: Lógica da busca de notícias
+- `tempo_api.php`: Script da previsão do tempo
+- `exportar_pdf.php`: Exportação de notícia em PDF
+- `style.css`: Estilização com modo claro/escuro
 - `dump.sql`: Estrutura e dados do banco
 
 ---
@@ -47,6 +59,7 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 - HTML + CSS puro
 - Responsiva e intuitiva
 - Visual limpo e separado entre público e restrito
+- Modo escuro ativável com toggle
 
 ---
 
@@ -89,7 +102,13 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 - **Data Início**: 13-Jun.
 - **Data Entrega**: 16-Jun.
 
-### *Etapa 7: Entrega Final*
+### *Etapa 7: Funcionalidades Extras*
+- **Modo Escuro / Previsão / PDF / Busca / Anúncios**
+- **Responsáveis**: Jeremias e João
+- **Data Início**: 14-Jun.
+- **Data Entrega**: 22-Jun.
+
+### *Etapa 8: Entrega Final*
 - **Responsáveis**: Jeremias, João e Vitor
 - **Data Início**: 10-Jun.
 - **Data Entrega**: 25-Jun.
@@ -98,3 +117,5 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 
 ## ✅ Conclusão
 Projeto criado como parte da disciplina de Desenvolvimento Web. Tema escolhido: **Meio Ambiente 🌱**.
+
+Sistema completo, com foco em usabilidade, acessibilidade e recursos modernos para informação ambiental confiável e acessível.
