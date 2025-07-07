@@ -1,7 +1,3 @@
-Sim! Aqui está o **Kanban final completo e unificado**, com todas as alterações aplicadas, pronto para entrega ou documentação:
-
----
-
 # 🌿 Portal de Notícias Ambientais - *Ecológica Verde*
 
 ## 🎯 Objetivo
