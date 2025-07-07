@@ -34,7 +34,6 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 * Anúncios dinâmicos na área pública
 * Modo escuro ativável pelo usuário
 
-> **Obs.:** Algumas funcionalidades extras (previsão do tempo, modo escuro, anúncios, recuperação de conta, exportar PDF e busca de notícias) foram desenvolvidas **após 25/06** e finalizadas até a data de entrega **16/07**.
 
 ---
 
@@ -128,13 +127,13 @@ Criar um portal de notícias com temática ambiental, utilizando PHP, MySQL e HT
 * **Modo Escuro / Previsão / PDF / Busca / Anúncios / Recuperação de Conta**
 * **Responsáveis**: Jeremias, João e Vitor
 * **Data Início**: 14-Jun.
-* **Data Conclusão**: 16-Jul.
+* **Data Conclusão**: 09-Jul.
 
 ### *Etapa 8: Entrega Final*
 
 * **Responsáveis**: Jeremias, João e Vitor
 * **Data Início**: 10-Jun.
-* **Data Entrega Final**: 16-Jul.
+* **Data Entrega Final**: 09-Jul.
 
 ---
 
